@@ -1,24 +1,29 @@
 
 #about-section {
-    p {
-        max-width: 40%;
-        margin: 0 auto;
-        text-align: center;
-        color: #626262;
-    }
-    .title {
-        margin: 20px auto;
-        font-size: 20px;
-        font-weight: 500;
-    }
-    .subtitle {
-        font-size: 18px;
-        font-weight: 300;
+    padding: 30px 20px;
+    .text-wrapper {
+        .border-top {
+            width: 50px;
+            border-bottom: 2px solid grey;
+            text-align: center;
+        }
+        p {
+            color: #626262;
+        }
+        .title {
+            margin: 10px 0 20px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+        .subtitle {
+            font-size: 18px;
+            font-weight: 300;
+        }
     }
     .icon-wrapper {
-        text-align: center;
-        .mountain {
-            width: 250px;
-        }
+        background: url("../images/slider1.jpg") no-repeat center;
+        background-size: cover;
+        width: 100%;
+        height: 300px;
     }
 }
