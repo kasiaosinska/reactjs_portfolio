@@ -1,0 +1,11 @@
+.slider {
+    background: url("../images/slider3.jpg") no-repeat center;
+    background-size: cover;
+    height: calc(100vh - 70px);
+    margin-top: -70px;
+    h1 {
+        color: #4ccdb6;
+        line-height: 500px;
+        text-align: center;
+    }
+}

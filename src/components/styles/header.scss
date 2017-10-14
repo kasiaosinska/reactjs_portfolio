@@ -1,0 +1,18 @@
+.menu {
+    background-color: transparent;
+    border: none;
+    .navbar-brand {
+        &:hover {
+            color: #4ccdb6;
+        }
+    }
+    .navbar-nav {
+        li {
+            a {
+                &:hover {
+                    color: #4ccdb6;
+                }
+            }
+        }
+    }
+}
