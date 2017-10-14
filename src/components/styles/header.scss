@@ -8,6 +8,10 @@
     }
     .navbar-nav {
         li {
+            border-bottom: 1px solid grey;
+            &:hover {
+                border-color: #4ccdb6;
+            }
             a {
                 &:hover {
                     color: #4ccdb6;

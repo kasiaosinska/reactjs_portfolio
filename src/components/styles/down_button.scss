@@ -1,0 +1,16 @@
+.down-button-section {
+    height: 70px;
+    text-align: center;
+    .arrow-down {
+        height: 30px;
+        width: 30px;
+        margin: 10px auto 0 auto;
+        border-top: solid grey;
+        border-right: solid grey;
+        transform: rotate(135deg);
+        &:hover {
+            border-color: #4ccdb6;
+            cursor: pointer;
+        }
+    }
+}
