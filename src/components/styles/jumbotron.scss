@@ -1,0 +1,11 @@
+.slider {
+    background: url("../images/forest.jpg") no-repeat center;
+    background-size: cover;
+    height: calc(100vh - 70px);
+    margin-top: -70px;
+    h1 {
+        color: #dcdcdc;
+        line-height: 500px;
+        text-align: center;
+    }
+}
