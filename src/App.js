@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import BackgroundImg from './components/images/mountain_icon.jpg';
+import BackgroundImg from './components/images/mountains-bcgsmall.jpg';
 
 import Header from './components/Header';
 import Slider from './components/Slider';
@@ -21,7 +21,7 @@ class App extends Component {
                 <Slider />
                 <DownButton />
                 <About />
-                <JumbotronSmall image={BackgroundImg}/>
+                <JumbotronSmall image={BackgroundImg} title={'Enjoy'}/>
             </div>
         );
     }

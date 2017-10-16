@@ -12,13 +12,16 @@ class JumbotronSmall extends Component {
         const style = {
             backgroundImage: `url(${this.props.image})`,
             backgroundSize: "cover",
-            backgroundRepeat: "no-repeat"
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: 'center center'
         };
 
         return (
-            <div className="container-fluid">
-                <div className="jumbotron-small" style={style}>
-                    Enjoy the moment
+            <div>
+                <div className='jumbotron-small' style={style}>
+                    <div className='img-opacity'>
+                        <h1 className='title'>{this.props.title}</h1>
+                    </div>
                 </div>
             </div>
         )
