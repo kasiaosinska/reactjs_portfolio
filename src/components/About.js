@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './styles/about.css';
 import {Grid, Row, Col} from 'react-bootstrap';
+import Tree from './images/tree.svg';
 
 class About extends Component {
     render () {
@@ -16,6 +17,13 @@ class About extends Component {
                     </Col>
                     <Col xs={12} md={6}>
                         <div className="icon-wrapper"></div>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col xs={12}>
+                        <div className="tree-img-wrapper">
+                            <img className="tree-img" src={Tree} alt="tree"/>
+                        </div>
                     </Col>
                 </Row>
             </Grid>
