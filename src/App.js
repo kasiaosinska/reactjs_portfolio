@@ -8,6 +8,7 @@ import DownButton from './components/containers/DownButton'
 import About from './components/About';
 import Projects from './components/Projects';
 import JumbotronSmall from './components/JumbotronSmall';
+import Services from './components/Services';
 
 class App extends Component {
   render() {
@@ -19,6 +20,7 @@ class App extends Component {
           <About />
           <Projects />
           <JumbotronSmall image={BackgroundImg} title={'Explore'}/>
+          <Services />
       </div>
     );
   }

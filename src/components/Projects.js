@@ -25,7 +25,7 @@ class Projects extends Component {
 
         return (
             <div className="projects-wrapper">
-                <p className="title">Projects</p>
+                <p className="title">My <span className="text-color">latest</span> projects</p>
                 <Grid>
                     <Row>
                         <div className="small-container">
