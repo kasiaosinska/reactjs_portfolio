@@ -9,7 +9,9 @@ import About from './components/About';
 import Projects from './components/Projects';
 import JumbotronSmall from './components/JumbotronSmall';
 import Services from './components/Services';
+import ContactForm from './components/Form';
 import Footer from './components/Footer';
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
           <Projects />
           <JumbotronSmall image={BackgroundImg} title={'Explore'}/>
           <Services />
+          <ContactForm />
           <Footer />
       </div>
     );
