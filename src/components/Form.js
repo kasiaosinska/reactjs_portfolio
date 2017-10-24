@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import './styles/services.scss';
 import {Grid, Row} from 'react-bootstrap';
 
 class ContactForm extends Component {
@@ -26,7 +25,7 @@ class ContactForm extends Component {
     };
 
     handleSubmit = (event) => {
-        console.log('dane' + this.state.name + this.state.email + this.state.text)
+        console.log('dane' + this.state.name + this.state.email + this.state.text);
         event.preventDefault();
     };
 

@@ -1,8 +1,29 @@
 
-.service-box {
-  text-align: center;
-  .service-img {
+.services-wrapper {
+  margin: 60px 0;
+  .service-box {
     text-align: center;
-    margin: 0 auto;
+    .service-img {
+      text-align: center;
+      margin: 0 auto;
+    }
+    .subtitle {
+      margin: 10px 0 10px;
+    }
+    .text-description {
+      margin: 10px auto 60px auto;
+      max-width: 130px;
+    }
+  }
+
+  .title {
+    text-align: center;
+    margin: 10px 0 20px;
+    font-size: 20px;
+    font-weight: 500;
+    .text-color {
+      color: purple;
+    }
   }
 }
+

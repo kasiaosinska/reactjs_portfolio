@@ -3,10 +3,6 @@ import {Col} from 'react-bootstrap';
 import '../styles/projects.css';
 
 class ProjectBox extends Component {
-    constructor (props) {
-        super(props)
-    }
-
     render () {
         return (
             <Col xs={12} md={6} lg={4}>

@@ -3,10 +3,6 @@ import {Col} from 'react-bootstrap';
 import '../styles/projects.css';
 
 class ImgBox extends Component {
-    constructor (props) {
-        super(props)
-    }
-
     render() {
 
         let style = {

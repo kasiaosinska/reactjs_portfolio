@@ -3,10 +3,6 @@ import './styles/jumbotronsmall.css';
 
 
 class JumbotronSmall extends Component {
-    constructor (props) {
-        super(props)
-    }
-
     render () {
 
         const style = {

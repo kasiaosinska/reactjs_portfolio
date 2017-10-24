@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Grid, Row} from 'react-bootstrap';
+import './styles/projects.css';
 
 
 import ProjectBox from './containers/ProjectBox';
