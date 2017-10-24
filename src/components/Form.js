@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Grid, Row} from 'react-bootstrap';
+import './styles/form.css'
+import {Grid, Row, Col} from 'react-bootstrap';
 
 class ContactForm extends Component {
     constructor(props) {
@@ -31,22 +32,28 @@ class ContactForm extends Component {
 
     render () {
         return (
-            <div>
-                <form onSubmit={this.handleSubmit}>
-                    <label>
-                        Name:
-                        <input name="name" value={this.state.name} onChange={this.handleChangeName}/>
-                    </label>
-                    <label>
-                        E-mail:
-                        <input name="email" value={this.state.email} onChange={this.handleChangeEmail}/>
-                    </label>
-                    <label>
-                        Enter message:
-                        <textarea name="text" value={this.state.text} onChange={this.handleChangeText}/>
-                    </label>
-                    <input type="submit" value="Send"/>
-                </form>
+            <div className="form__section">
+                <Grid>
+                    <Row>
+                        <Col xs={12}>
+                            <form className="form__section__wrapper" onSubmit={this.handleSubmit}>
+                                <label className="form__section__label">
+                                    Name:
+                                    <input className="form__section__input" name="name" value={this.state.name} onChange={this.handleChangeName}/>
+                                </label>
+                                <label className="form__section__label">
+                                    E-mail:
+                                    <input className="form__section__input" name="email" value={this.state.email} onChange={this.handleChangeEmail}/>
+                                </label>
+                                <label className="form__section__label">
+                                    Enter message:
+                                    <textarea className="form__section__textarea" name="text" value={this.state.text} onChange={this.handleChangeText}/>
+                                </label>
+                                <input className="form__section__button" type="submit" value="Send"/>
+                            </form>
+                        </Col>
+                    </Row>
+                </Grid>
             </div>
         )
     }

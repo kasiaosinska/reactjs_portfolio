@@ -20,10 +20,10 @@ class App extends Component {
           <Header />
           <Jumbotron />
           <DownButton />
-          <About />
+          <Services />
           <Projects />
           <JumbotronSmall image={BackgroundImg} title={'Explore'}/>
-          <Services />
+          <About />
           <ContactForm />
           <Footer />
       </div>
