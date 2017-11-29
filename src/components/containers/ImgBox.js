@@ -13,7 +13,7 @@ class ImgBox extends Component {
         };
 
         return (
-            <Col xs={12} md={6} lg={4}>
+            <Col xs={12} md={6}>
                 <a href={this.props.link} target="_blank"><div className="img-box" style={style}></div></a>
             </Col>
         )

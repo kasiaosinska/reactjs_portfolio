@@ -33,7 +33,7 @@ export class Config {
         {
             name: 'Pola',
             text: 'Komercyjny projekt. Responsywny landing page. Wykorzystane HTML, CSS i JavaScript',
-            link: 'https://matchbeta.pl/register-landing',
+            link: 'http://pola.szmida.nazwa.pl/',
             img: Pola,
         },
         {
@@ -41,6 +41,12 @@ export class Config {
             text: 'Prywatny projekt. Gra polegająca na zebraniu jak największej ilości monet. Wykorzystane HTML, CSS i JavaScript',
             link: 'https://github.com/kasiaosinska/MarioGame',
             img: Game,
+        },
+        {
+            name: 'Natura Cold Press',
+            text: 'Komercyjny projekt. Responsywny landing page. Wykorzystane HTML, CSS i JavaScript',
+            link: 'https://naturacoldpress.pl/abonament/',
+            img: '',
         }]
     }
 }

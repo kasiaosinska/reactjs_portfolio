@@ -5,7 +5,7 @@ import '../styles/projects.css';
 class ProjectBox extends Component {
     render () {
         return (
-            <Col xs={12} md={6} lg={4}>
+            <Col xs={12} md={6}>
                 <div className="project-box">
                     <div className="square"></div>
                     <p className="project-title">{this.props.title}</p>

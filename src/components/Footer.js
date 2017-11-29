@@ -14,8 +14,11 @@ class Footer extends Component {
         return (
             <Grid>
                 <Row>
-                    <Col xs={6}></Col>
-                    <Col xs={6}>&#174; {this.state.date.getFullYear()} Katarzyna Osińska</Col>
+                    <Col xs={12}>
+                        <div className="footer-wrapper">
+                            &#174; {this.state.date.getFullYear()} Katarzyna Osińska
+                        </div>
+                    </Col>
                 </Row>
             </Grid>
         )
